@@ -1,0 +1,32 @@
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  }
+
+.bird-circle {
+border-radius: 50%;
+object-fit: none;
+}
+
+#circle	{
+float: center;
+margin-right: 80px;
+clip-path: circle(100px at 285px 100px);
+}
+
+.rc{
+ width: 500px;
+ height: 500px;
+ border-radius: 100%;
+ -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+ -webkit-transform: rotate(0.000001deg); 
+ -webkit-border-radius: 100%; 
+ -moz-border-radius: 100%;
+}
+
+.video-circle {
+border-radius: 10%;
+object-fit: contain;
+}
